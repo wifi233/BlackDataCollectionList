@@ -1,18 +1,18 @@
 {
   "enableBlacklist": true,
   "enableUrlBlacklist": true,
-  "enableDuplicateShaCheck": false,
-  "blacklist": [
-    "99819e4f824acecb56fbd333d30adff6bff6b2ae",
-    "38e7acd716450ce24f1a1b6ce94cd8f1c4117dff",
-    "a209989ca3e18fea6b1a3a41ac064c229857e9b7",
-    "f74da18814577c83958ca970c429eb6be44094e7",
-    "2dce166c56dfbafdc9886e3f59cab923c926914b",
-    "fd7118734ba0edb69047c20d0d78658dd918bf40",
-    "350365ce08cad854078e271f19db644336cff42d",
-    "11a533435098d9009032f26c1a6ca835ad993c51"
+  "enableDuplicateShaCheck": true,
+  "sha1Blacklist": [
+    { "value": "99819e4f824acecb56fbd333d30adff6bff6b2ae", "name": "" },
+    { "value": "38e7acd716450ce24f1a1b6ce94cd8f1c4117dff", "name": "" },
+    { "value": "a209989ca3e18fea6b1a3a41ac064c229857e9b7", "name": "" },
+    { "value": "f74da18814577c83958ca970c429eb6be44094e7", "name": "" },
+    { "value": "2dce166c56dfbafdc9886e3f59cab923c926914b", "name": "" },
+    { "value": "fd7118734ba0edb69047c20d0d78658dd918bf40", "name": "" },
+    { "value": "350365ce08cad854078e271f19db644336cff42d", "name": "" },
+    { "value": "11a533435098d9009032f26c1a6ca835ad993c51", "name": "" }
   ],
   "urlBlacklist": [
-    "https://v.fengbao10.com/video/adjump/"
+    { "value": "https://v.fengbao10.com/video/adjump/", "name": "" }
   ]
 }
